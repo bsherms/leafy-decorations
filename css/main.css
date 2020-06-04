@@ -2,8 +2,18 @@ html {
   font-family: Lora, serif;
 }
 
-.masthead {
+h1 {
+  color: #fff;
+}
 
+.masthead {
+  background-color: #588477;
+  border-bottom: 3px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  background-image: url("../images/leaf-bg.svg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: left top;
 }
 
 .logo {
@@ -23,11 +33,14 @@ html {
 }
 
 .banner {
-
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;
 }
 
 .banner-content {
-
+  background-attachment: scroll;
 }
 
 @media only screen and (min-width: 60em) {
