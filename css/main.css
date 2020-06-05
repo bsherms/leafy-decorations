@@ -49,11 +49,11 @@ h1 {
 }
 
 .banner-content {
-  padding-top: 66.56%;
+  padding-top: 300px;
   background-attachment: scroll;
   color: #fff;
   background-image: url("../images/two-leaves.svg");
-  background-size: auto;
+  background-size: 120px;
   background-repeat: no-repeat;
   background-position: left center;
 }
